@@ -12,3 +12,10 @@ import Foundation
 let a = 7.0
 let areaOfSquare = forSquareWith(sideLength: a)
 print("The area of a square with side length \(a) is \(areaOfSquare)")
+
+// a = 8 // This cannot happen. "a" is a constant
+
+// Example of using a variable
+var b = 17.0
+b = 18.0
+print("The value of b is \(b)")
